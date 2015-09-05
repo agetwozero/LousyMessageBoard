@@ -1,0 +1,14 @@
+DirectoryIndex index.php
+
+RewriteEngine on
+
+RewriteRule \.(css|jpe?g|gif|png|js|ico)$ - [L]
+RewriteRule ^home index.php
+#RewriteRule ^All SubPage.php?name=all   [NC,L]
+#RewriteRule ^Games SubPage.php?name=games   [NC,L]
+#RewriteRule ^Programming SubPage.php?name=programming   [NC,L]
+#RewriteRule ^Awww SubPage.php?name=awww   [NC,L]
+#RewriteRule ^Splatoon SubPage.php?name=splatoon   [NC,L]
+RewriteRule ^([A-Za-z0-9-]+)/?$ SubPage.php?name=$1    [NC,L]
+RewriteRule ^user/([A-Za-z0-9-]+)/?$ UserPage.php?name=$1    [NC,L]
+# Handle sub requests
