@@ -9,7 +9,7 @@ if (isset($_GET['error'])) {
     <link rel="stylesheet" type="text/css" href="main.css"/>
     </head>
 <body>
-    <?php include "bar.php"?>
+
 <br>
 <?php if(isset($error)){
     echo "<div class='login-message'>" .$error. "<br></div>";

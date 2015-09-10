@@ -1,0 +1,299 @@
+body{
+    margin:0;
+    background-color: #F5F5F5;
+    font-family: 'Open Sans' , sans-serif;
+}
+
+#threads{
+    padding: 20px;
+/*    border: 2px solid black;*/
+    width:90%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 15px;
+    
+}
+
+.login-message{
+    text-align: center;
+}
+
+h3{
+    color:white;
+    background: -webkit-linear-gradient(royalblue, cornflowerblue); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(royalblue, cornflowerblue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(royalblue, cornflowerblue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(royalblue, cornflowerblue); /* Standard syntax */
+    padding:10px;
+    margin-top: 0px;
+    text-align: center;
+    
+}
+.thread{
+    margin-bottom: 10px;
+/*   padding: 10px;*/
+/*    border: 1px solid black;*/
+    background-color: #FFF;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    box-shadow: -1px -1px 8px #808080;
+}
+.thread a{
+    display: inline;
+}
+.message{
+    width:90%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 10px 0px 10px 0px;
+    padding-top: 0px; 
+    background-color:white;
+    
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    box-shadow: -1px -1px 8px #808080;
+}
+
+.login-box{
+    width:40%;
+    min-width:512px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 10px 0px 10px 0px;
+    padding-top: 0px; 
+    background-color:white;
+    
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    box-shadow: -1px -1px 8px #808080;
+}
+
+.login-box h1{
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    font-size: 22px;
+    padding:5px;
+    
+     border-top-left-radius: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-top-right-radius: 5px;
+    
+    background: -webkit-linear-gradient(royalblue, cornflowerblue); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(royalblue, cornflowerblue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(royalblue, cornflowerblue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(royalblue, cornflowerblue); /* Standard syntax */
+
+}
+
+.note-holder{
+    width:320px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    margin:0 auto;
+}
+
+.note{
+    display: inline;
+    float:left;
+}
+
+.note-input{
+    display: inline;
+    width:50%;
+    float:left;
+    margin-left: 10px;
+}
+
+.login-form{
+    padding: 5px 15px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.message h6{
+    text-align: end;
+    padding: 0px;
+    margin: 0px;
+    font-size: 9px;
+
+}
+
+#subs{
+    overflow:hidden;
+}
+.subs{
+    border: 2px solid cornflowerblue;
+    margin: 10px;
+    width: 31.4%;
+    float:left;
+}
+
+.sub-form{
+    width:90%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 1241px) {
+    .subs{
+        width: 46.4%;
+    }
+
+}
+
+@media screen and (max-width: 670px) {
+    .subs{
+        width: 94%;
+    }
+
+}
+
+#bar{
+    position: relative;
+    background-color: white;
+    border-bottom: 1px solid cornflowerblue;
+/*    text-align: center;*/
+    width: 100%;
+/*    overflow: hidden;*/
+    margin-bottom: 10px;
+    padding-top: 5px;
+   
+}
+
+#bar .login{
+    float:right;
+    margin-right: 10px;
+}
+
+#bar ul li {
+    display: inline-block;
+    color: cornflowerblue;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+
+#bar ul li h6{
+    margin:0;
+    margin-right: 50px;
+    font-size: 15px;
+    font-style: normal;
+    font-family: inherit;
+    
+    
+}
+
+#messagehead{
+    padding: 5px 10px 5px 10px;
+    border-top: none;
+    margin-bottom: 10px;
+    color: white;
+    
+     border-top-left-radius: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-top-right-radius: 5px;
+    
+    background: -webkit-linear-gradient(royalblue, cornflowerblue); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(royalblue, cornflowerblue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(royalblue, cornflowerblue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(royalblue, cornflowerblue); /* Standard syntax */
+}
+#messagecontent{
+    margin: 10px;
+}
+
+#messageform{
+    width:90%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 10px 0px 10px 0px;
+    padding-top: 0px; 
+
+}
+
+.thread-head{
+    padding: 10px 20px;
+    color:white;
+    border-top-left-radius: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-top-right-radius: 5px;
+    
+    background: -webkit-linear-gradient(royalblue, cornflowerblue); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(royalblue, cornflowerblue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(royalblue, cornflowerblue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(royalblue, cornflowerblue); /* Standard syntax */
+}
+
+.thread-head p{
+    display: inline;
+/*   width:30%;*/
+}
+
+.thread-link{
+/*    width:30%;*/
+    color:white;
+}
+
+.thread-content{
+    padding: 10px 20px;
+}
+
+.last-message{
+    line-height: 20px;
+    display: inline;
+    font-size:14px;
+}
+
+.new-thread-form{
+    width:90%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 0px;
+}
+
+input[type="button"], input[type="submit"]{
+    color:white;
+    padding: 10 20px;
+    
+    border: none !important;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    box-shadow: -1px -1px 8px #808080;
+    
+    background: -webkit-linear-gradient(royalblue, cornflowerblue); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(royalblue, cornflowerblue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(royalblue, cornflowerblue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(royalblue, cornflowerblue); /* Standard syntax */
+}
+
+
+input[type="button"]:hover, input[type="submit"]:hover{
+    color:black;
+    padding: 10 20px;
+    
+    border: none !important;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    box-shadow: -1px -1px 8px #808080;
+    
+    background: -webkit-linear-gradient(lightgray, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(lightgray, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(lightgray, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(lightgray, white); /* Standard syntax */
+}
