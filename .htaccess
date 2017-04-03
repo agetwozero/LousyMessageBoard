@@ -1,9 +1,0 @@
-DirectoryIndex index.php
-
-RewriteEngine on
-
-RewriteRule \.(css|jpe?g|gif|png|js|ico)$ - [L]
-RewriteRule ^home index.php
-RewriteRule ^([A-Za-z0-9-]+)/?$ SubPage.php?name=$1    [NC,L]
-RewriteRule ^user/([A-Za-z0-9-]+)/?$ UserPage.php?name=$1    [NC,L]
-# Handle sub requests
